@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.core.exceptions import ImproperlyConfigured
 from django.core.serializers.json import DjangoJSONEncoder
-from django.utils import six
+import six
 
 # Django 1.5+ compat
 try:
